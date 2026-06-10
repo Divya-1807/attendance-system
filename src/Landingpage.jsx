@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import { PAGES } from "./App";
+import { PAGES } from "./pageRoutes";
 
 export default function LandingPage({ navigate }) {
   const features = [

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from "./Logo";
-import { PAGES } from "./App";
+import { PAGES } from "./pageRoutes";
 
 export default function EmployeeDashboard({ navigate }) {
   const [checkedIn, setCheckedIn] = useState(false);

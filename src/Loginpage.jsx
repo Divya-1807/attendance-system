@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AuthLayout from "./Authlayout";
-import { PAGES } from "./App";
+import { PAGES } from "./pageRoutes";
 
 export default function LoginPage({ navigate }) {
   const [email, setEmail] = useState("");

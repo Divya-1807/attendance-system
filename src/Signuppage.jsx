@@ -1,6 +1,6 @@
 import { useState } from "react";
 import AuthLayout from "./AuthLayout";
-import { PAGES } from "./App";
+import { PAGES } from "./pageRoutes";
 
 export default function SignupPage({ navigate }) {
   const [name, setName] = useState("");

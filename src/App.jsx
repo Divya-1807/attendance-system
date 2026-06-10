@@ -4,15 +4,8 @@ import LoginPage from "./Loginpage";
 import SignupPage from "./Signuppage";
 import EmployeeDashboard from "./Employeedashboard";
 import AdminDashboard from "./Admindashboard";
+import { PAGES } from "./pageRoutes";
 import "./styles.css";
-
-export const PAGES = {
-  LANDING: "landing",
-  LOGIN: "login",
-  SIGNUP: "signup",
-  EMPLOYEE_DASHBOARD: "employee_dashboard",
-  ADMIN_DASHBOARD: "admin_dashboard",
-};
 
 export default function App() {
   const [page, setPage] = useState(PAGES.LANDING);
